@@ -76,10 +76,10 @@ h3 {
   /* padding: 0 156px; */
 }
 
-.nav-main {
-  /* display: flex; */
-  /* align-items: center; */
-}
+/* .nav-main {
+  display: flex;
+  align-items: center;
+} */
 
 .nav-ul {
   /* display: flex; */
@@ -113,10 +113,10 @@ h3 {
   color: #404bbf;
 }
 
-.address-info ul {
-  /* display: flex; */
-  /* gap: 40px; */
-}
+/* .address-info ul {
+  display: flex;
+  gap: 40px;
+} */
 
 /* hero section */
 
@@ -165,15 +165,15 @@ h3 {
 
 /* features section */
 
-.features-ul {
-  /* display: flex; */
-  /* gap: 24px; */
-  /* padding: 120px 156px; */
-}
+/* .features-ul {
+  display: flex;
+  gap: 24px;
+  padding: 120px 156px;
+} */
 
-.visible-hidden {
-  /* display: none; */
-}
+/* .visible-hidden {
+  display: none;
+} */
 
 .features-header {
   line-height: 1.2;
@@ -230,9 +230,10 @@ h3 {
 }
 
 /* portfolio section */
-.portfolio {
-  /* padding: 120px 0; */
-}
+
+/* .portfolio {
+  padding: 120px 0;
+} */
 
 .portfolio-header {
   font-size: 36px;
