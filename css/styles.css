@@ -1,0 +1,240 @@
+/* settings from Figma style guide + some default resetting */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #434455;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.2;
+  color: white;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+/* additional style for links based on requirements */
+
+a:not(.logo-link):hover {
+  color: #4d5ae5;
+}
+
+a:not(.logo-link):active {
+  color: #404bbf;
+}
+
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 36px;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+/* style for page */
+
+/* navbar */
+.main-header {
+  display: flex;
+  background-color: #e7e9fc;
+  padding: 0 156px;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+}
+
+.nav-ul {
+  display: flex;
+  margin: 24px 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.address-info {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+}
+
+.address-info a {
+  display: flex;
+  font-weight: normal;
+}
+
+.address-info ul {
+  display: flex;
+  gap: 40px;
+}
+
+/* hero section */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2f42;
+  color: white;
+  width: auto;
+  padding: 120px 0;
+  max-height: 600px;
+}
+
+.hero > h1 {
+  margin-bottom: 48px;
+  max-width: 496px;
+  text-align: center;
+}
+
+.hero-button {
+  display: flex;
+  margin: 0;
+  background-color: #4d5ae5;
+  color: white;
+  height: 56px;
+  width: 169px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+/* features section */
+
+.features-ul {
+  display: flex;
+  gap: 24px;
+  padding: 120px 156px;
+}
+
+.visible-hidden {
+  display: none;
+}
+
+/* team section */
+
+.team-cards {
+  background-color: #f4f4fd;
+}
+
+.team-image {
+  width: 264px;
+  height: 260px;
+}
+
+.team-cards {
+  display: flex;
+  flex-direction: column;
+  max-height: 732px;
+}
+
+.team-cards > h2 {
+  display: flex;
+  padding: 120px 0 72px;
+  justify-content: center;
+  margin: 0;
+}
+
+.team-ul {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 0 0 120px;
+  margin: 0;
+}
+
+/* portfolio section */
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.portfolio-container > h2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 72px;
+  margin: 0;
+}
+
+.portfolio-ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+/* footer section */
+
+.page-footer {
+  background-color: #2e2f42;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-footer > a {
+  margin-top: 101px;
+  margin-left: 136px;
+  padding: 0 20px;
+}
+
+.footer-link {
+  color: #f4f4fd;
+  display: inline-block;
+}
+
+.page-footer > p {
+  margin-left: 156px;
+  margin-bottom: 100px;
+  height: 72px;
+  width: 264px;
+}
