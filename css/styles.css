@@ -97,7 +97,6 @@ h3 {
 .hero {
   background-color: #2e2f42;
   color: white;
-  max-height: 600px;
 }
 
 .hero > h1 {
@@ -156,14 +155,6 @@ h3 {
 
 .team-cards {
   background-color: #f4f4fd;
-}
-
-.team-image {
-  height: 260px;
-}
-
-.team-cards {
-  max-height: 732px;
 }
 
 .team-ul {
